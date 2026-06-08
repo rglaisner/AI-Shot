@@ -1,6 +1,6 @@
 {
-  "name": "ProShot AI",
-  "description": "Transform your casual selfies into professional, high-quality corporate headshots in seconds using Gemini 2.5 Flash Image.",
+  "name": "AI Shot",
+  "description": "Make yourself beautiful. AI is magic..",
   "requestFramePermissions": [
     "camera"
   ]
