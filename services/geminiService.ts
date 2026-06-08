@@ -13,7 +13,7 @@ export const generateProfessionalHeadshot = async (
   const base64Data = base64Image.split(',')[1] || base64Image;
 
   const response = await ai.models.generateContent({
-    model: 'gemini-2.5-flash-image',
+    model: 'gemini-3.1-flash-image',
     contents: {
       parts: [
         {
@@ -56,7 +56,7 @@ export const editImageWithPrompt = async (
                   Ensure the result remains professional and high-quality.`;
 
   const response = await ai.models.generateContent({
-    model: 'gemini-2.5-flash-image',
+    model: 'gemini-3.1-flash-image',
     contents: {
       parts: [
         {

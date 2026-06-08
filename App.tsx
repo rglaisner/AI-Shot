@@ -716,7 +716,7 @@ const App: React.FC = () => {
 
       {/* Footer Branding */}
       <footer className="mt-24 border-t border-slate-200 pt-12 text-center text-slate-500">
-        <p className="text-sm font-medium">&copy; 2024 ProShot AI Photographer. Powered by Gemini Flash 2.5.</p>
+        <p className="text-sm font-medium">&copy; 2026 AI Shot AI by R.G. Powered by your credit ard, not mine..</p>
       </footer>
     </div>
   );
