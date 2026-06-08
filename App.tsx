@@ -300,7 +300,7 @@ const App: React.FC = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </div>
-            <h1 className="text-xl font-bold text-slate-900 tracking-tight">ProShot AI</h1>
+            <h1 className="text-xl font-bold text-slate-900 tracking-tight">AI Shot</h1>
           </div>
           <Button variant="outline" size="sm" onClick={resetAll}>New Session</Button>
         </div>
@@ -467,7 +467,7 @@ const App: React.FC = () => {
             <>
               {/* Style Selection */}
               <section className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                <h2 className="text-lg font-semibold mb-1">2. Pick a Vestimentary Style</h2>
+                <h2 className="text-lg font-semibold mb-1">2. Pick a Style</h2>
                 <p className="text-xs text-slate-500 mb-4">Select the overall outfit, apparel, lighting mood, and physical demeanor.</p>
                 <div className="grid grid-cols-2 gap-3 max-h-[240px] overflow-y-auto pr-1">
                   {HEADSHOT_STYLES.map(style => (
@@ -629,8 +629,8 @@ const App: React.FC = () => {
               {isGenerating && (
                 <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 flex flex-col items-center justify-center animate-pulse">
                   <div className="w-16 h-16 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mb-4"></div>
-                  <p className="text-slate-600 font-medium">The AI is crafting your masterpiece...</p>
-                  <p className="text-sm text-slate-400 mt-2 text-center">This usually takes a few seconds.</p>
+                  <p className="text-slate-600 font-medium">Crafting your masterpiece...</p>
+                  <p className="text-sm text-slate-400 mt-2 text-center">This will take a few seconds.</p>
                 </div>
               )}
 
@@ -716,7 +716,7 @@ const App: React.FC = () => {
 
       {/* Footer Branding */}
       <footer className="mt-24 border-t border-slate-200 pt-12 text-center text-slate-500">
-        <p className="text-sm font-medium">&copy; 2026 AI Shot AI by R.G. Powered by your credit ard, not mine..</p>
+        <p className="text-sm font-medium">&copy; AI Shot by R.G. - Powered by your credit card, not mine..</p>
       </footer>
     </div>
   );
