@@ -6,21 +6,21 @@ export const HEADSHOT_STYLES: HeadshotStyle[] = [
     id: 'corporate-grey',
     name: 'Corporate Grey',
     description: 'Classic studio look with a professional grey backdrop.',
-    prompt: 'Transform the person into a professional corporate headshot. They should be wearing high-quality professional business attire. The background is a clean, solid studio grey backdrop. High-end photography, 85mm lens, sharp focus on face, soft lighting.',
+    prompt: 'Transform the person into a professional corporate headshot. They should be wearing high-end professional business attire. The background is a clean, solid studio grey backdrop. High-end photography, 85mm lens, sharp focus on face, soft lighting.',
     previewUrl: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 'modern-tech',
     name: 'Modern Tech Office',
     description: 'A bright, contemporary workspace with natural depth.',
-    prompt: 'Transform the person into a high-quality professional headshot. They are wearing business-casual attire. The background is a bright, modern glass-walled tech office with plants and blurred desks. Soft natural lighting, professional depth of field.',
+    prompt: 'Transform the person into a high-quality professional headshot. They are wearing trendy business-casual attire. The background is a bright, modern glass-walled tech office with plants and blurred desks. Soft natural lighting, professional depth of field.',
     previewUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 'outdoor-natural',
     name: 'Outdoor Natural',
     description: 'Warm, natural light with a lush outdoor setting.',
-    prompt: 'Transform the person into a professional lifestyle headshot. They are wearing smart casual clothing. The background is a beautiful, sun-drenched park or garden with soft green bokeh. Natural golden hour lighting.',
+    prompt: 'Transform the person into a professional lifestyle headshot. They are wearing smart yet classy casual clothing. The background is a beautiful, sun-drenched park or garden with soft green bokeh. Natural golden hour lighting.',
     previewUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400'
   },
   {
@@ -34,28 +34,28 @@ export const HEADSHOT_STYLES: HeadshotStyle[] = [
     id: 'minimalist-white',
     name: 'Minimalist White',
     description: 'Clean, airy, and versatile for any professional use.',
-    prompt: 'Transform the person into a modern minimalist headshot. They are wearing clean, bright attire. The background is a pure, soft white minimalist studio setting. High key lighting, very clean and professional.',
+    prompt: 'Transform the person into a modern minimalist headshot. They are wearing clean, bright and somewhat minimalist attire. The background is a pure, soft white minimalist studio setting. High key lighting, very clean and professional.',
     previewUrl: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 'urban-professional',
     name: 'Urban Professional',
     description: 'Modern city backdrop with a dynamic, professional feel.',
-    prompt: 'Transform the person into a professional urban headshot. They are wearing a stylish blazer or smart casual jacket. The background is a blurred city street with modern architecture and soft morning light. High-end street photography style.',
+    prompt: 'Transform the person into a professional urban headshot. They are wearing a stylish blazer or trendy or smart casual jacket. The background is a blurred city street with modern architecture and soft morning light. High-end street photography style.',
     previewUrl: 'https://images.unsplash.com/photo-1480429370139-e0132c086e2a?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 'creative-studio',
     name: 'Creative Studio',
     description: 'Vibrant and artistic setting for creative industries.',
-    prompt: 'Transform the person into a creative professional headshot. They are wearing stylish, modern clothing. The background is a colorful, artistic studio with subtle paint textures and soft, warm lighting. Artistic depth of field.',
+    prompt: 'Transform the person into a creative professional headshot. They are wearing stylish, modern and hype clothing. The background is a colorful, artistic studio with subtle paint textures and soft, warm lighting. Artistic depth of field.',
     previewUrl: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 'academic-library',
     name: 'Academic Library',
     description: 'Sophisticated and scholarly look with a library backdrop.',
-    prompt: 'Transform the person into a professional academic headshot. They are wearing a smart sweater or professional attire. The background is a classic library with blurred bookshelves and warm, focused lighting. Intelligent and sophisticated atmosphere.',
+    prompt: 'Transform the person into a professional academic headshot. They are wearing a smart sweater or professional casual yet conservative attire. The background is a classic library with blurred bookshelves and warm, focused lighting. Intelligent and sophisticated atmosphere.',
     previewUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400'
   },
   {
@@ -69,14 +69,14 @@ export const HEADSHOT_STYLES: HeadshotStyle[] = [
     id: 'austin-ai-genius',
     name: 'Austin AI Genius',
     description: 'A sophisticated, high-tech look with a luxurious club vibe.',
-    prompt: 'Transform the person into a brilliant AI genius in Austin. They are wearing a sharp, modern professional outfit, possibly a high-end dark blazer over a clean, minimalist shirt. The setting is a sophisticated, dimly lit gentleman\'s club with rich wood paneling, leather seating, and a hint of high-tech displays or a laptop in the background. The lighting is dramatic and warm, with a focus on the face, conveying intelligence and confidence. High-end photography, cinematic depth of field.',
+    prompt: 'Transform the person into a brilliant AI genius in Austin. They are wearing a sharp, modern professional outfit, possibly a high-end dark sport blazer over a clean, minimalist shirt. The setting is a sophisticated, dimly lit gentleman\'s club with rich wood paneling, leather seating, and a hint of high-tech displays or a laptop in the background. The lighting is dramatic and warm, with a focus on the face, conveying intelligence and confidence. High-end photography, cinematic depth of field.',
     previewUrl: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=400'
   },
   {
     id: 'cyberpunk-ceo',
     name: 'Cyberpunk CEO',
     description: 'A futuristic, neon-lit corporate look from the year 2077.',
-    prompt: 'Transform the person into a high-powered CEO from a cyberpunk future. They are wearing a sleek, iridescent smart-suit with subtle glowing fiber-optic accents. The background is a rain-slicked balcony overlooking a sprawling neon-drenched megacity at night. Cool blue and hot pink lighting, cinematic sci-fi atmosphere, high-tech aesthetic.',
+    prompt: 'Transform the person into a high-powered CEO from a cyberpunk future. They are wearing a sleek, iridescent bio-suit with subtle glowing fiber-optic accents. The background is a rain-slicked balcony overlooking a sprawling neon-drenched megacity at night. Cool blue and hot pink lighting, cinematic sci-fi atmosphere, high-tech aesthetic.',
     previewUrl: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=400'
   },
   {
@@ -90,7 +90,7 @@ export const HEADSHOT_STYLES: HeadshotStyle[] = [
     id: 'underwater-executive',
     name: 'Underwater Executive',
     description: 'A professional headshot, but everything is underwater.',
-    prompt: 'Transform the person into a professional executive, but the entire scene is underwater. They are wearing a high-quality business suit that flows slightly in the current. Small bubbles rise around them, and colorful tropical fish swim in the blurred background. Sunlight filters down through the water surface above. Crystal clear water, surreal and humorous professional look.',
+    prompt: 'Transform the person into a professional executive, but the entire scene is underwater. They are wearing a high-quality damp business suit that flows slightly in the current. Small bubbles rise around them, and colorful tropical fish swim in the blurred background. Sunlight filters down through the water surface above. Crystal clear water, surreal and humorous professional look.',
     previewUrl: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=400'
   }
 ];
